@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="tagBinding"
+            type="com.rmohd8788.helloji.model.Tags" />
+    </data>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_tag"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp">
+
+        <TextView
+            android:id="@+id/tvTagName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@{tagBinding.component2()}"/>
+
+        <ImageButton
+            android:id="@+id/deleteTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_close"
+            android:layout_toEndOf="@id/tvTagName"
+            android:layout_marginStart="6dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            tools:ignore="ContentDescription"
+            android:padding="3dp"/>
+
+    </RelativeLayout>
+
+</layout>

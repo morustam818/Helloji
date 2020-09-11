@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HashTagFragment">
+
+    <LinearLayout
+        android:id="@+id/tagContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_search_tag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="18dp"
+            android:layout_margin="20dp"
+            android:hint="@string/search_tags"
+            android:background="@drawable/bg_search_tag"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_add_tag"
+            android:layout_marginEnd="16dp">
+
+            <ImageButton
+                android:id="@+id/btn_addTag"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_add"
+                android:background="@android:color/transparent"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tagContainer"
+        android:layout_margin="16dp"/>
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_tag"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/broadcast"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_broadcast"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Helloji</string>
+    <!-- TODO: Remove or change this placeholder text -->/f.
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tags">Tags</string>
+    <string name="trending">Trending</string>
+    <string name="trending_tag">Trending Now</string>
+    <string name="explore">Explore</string>
+    <string name="explore_tag">Explore #tag</string>
+    <string name="saved">Saved</string>
+    <string name="saved_tag">Saved</string>
+    <string name="tag">#tags</string>
+    <string name="location">Default Location</string>
+    <string name="notification">Notification</string>
+    <string name="search_tags">Search tags</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="invite">INVITE</string>
+    <string name="save">SAVE</string>
+    <string name="search_by_tags">Search by tags</string>
+    <string name="location_permission_desc">By allowing geolocation, you are able to explore current location weather information</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="allow">Allow</string>
+    <string name="facebook_app_id">3420923824657721</string>
+    <string name="fb_login_protocol_scheme">fb3420923824657721</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_or_sign_up">Please login or sign up to continue using Helloji</string>
+    <string name="enter_via_social_networks">Enter via social networks</string>
+    <string name="or_login_with_email">or login with email</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_sign_up_to_continue_using_helloji">Please sign up to continue using Helloji</string>
+    <string name="please_sign_in_to_continue_using_helloji">Please login to continue using Helloji</string>
+    <string name="or_sign_up_with_email">or sign up with email</string>
+    <string name="or_sign_in_with_email">or login with email</string>
+    <string name="email">Email</string>
+    <string name="i_agree_with_privacy">I agree with privacy policy</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_continue_with_phone">Or continue with phone</string>
+    <string name="phone">Phone</string>
+    <string name="please_enter_your_phone_number_to_continue_using_helloji">"Please enter your phone number to continue using Helloji</string>
+    <string name="register_your_mobile_no">Verify your phone number</string>
+    <string name="send_otp">Send Otp</string>
+    <string name="don_t_worry">Don\'t worry we just need your \n registered email address and it\'s done!!</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="recovery_email_sent_successfully_check_your_inbox">Recovery email sent successfully ! check your inbox</string>
+    <string name="loading_please_wait">Loading.. please wait</string>
+    <string name="just_quick">Just a quick security check</string>
+    <string name="sit_back">Sit back and relax,we will try to verify automatically. It might take a few minutes to receive your code.</string>
+    <string name="enter_verification">Enter verification code</string>
+    <string name="did_t_receive_the_code">Did\'t receive the code?</string>
+    <string name="send_again">Send again</string>
+    <string name="verify_code">Verify code</string>
+    <string name="standard_charges_may_apply">*Standard Charges may apply</string>
+    <string name="home">Home</string>
+    <string name="more">More</string>
+    <string name="logout">Logout</string>
+    <string name="developer">Android Developer</string>
+    <string name="developer_email">android@developer.com</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>
